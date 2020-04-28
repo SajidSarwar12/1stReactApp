@@ -6,6 +6,8 @@ import Gallery from './container/gallery/gallery';
 export default() => {
   return(
     <>
+
+    {/* components called */}
      <Home/>
      <AboutUs/>
      <Gallery/>
