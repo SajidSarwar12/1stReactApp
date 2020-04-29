@@ -7,12 +7,15 @@ export default() => {
   return(
     <>
 
-    {/* components called */}
+    {/* components called and routes added
+    */}
      <Home/>
      <AboutUs/>
      <Gallery/>
     </>
   );
 }
+
+
 
 
