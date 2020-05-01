@@ -1,16 +1,17 @@
 import React from 'react';
-import Home from './container/home/home';
-import AboutUs from './container/aboutUs/aboutUs';
-import Gallery from './container/gallery/gallery';
+import SignIn from './container/signIn/signIn';
+import { BrowserRouter, Route, Switch, Link } from "react-router-dom";
+import Routes from './routes';
 
 export default() => {
   return(
     <>
 
     {/* components called */}
-     <Home/>
-     <AboutUs/>
-     <Gallery/>
+    <Switch>
+      <Route path={"/signin"} exact component={SignIn} />
+      <Route path={"/"} component={Routes} /> 
+    </Switch>
     </>
   );
 }
