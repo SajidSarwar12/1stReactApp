@@ -1,3 +1,63 @@
-.head{
-    color: red;
+body{
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+    
 }
+.navBar{
+    width: 100%;
+    padding: 10px;
+    background-color: #012d52;
+    display: flex;
+    justify-content: left;
+}
+.navBarLink{
+    padding: 5px 10px 5px 10px;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.logo{
+    width:250px;
+    height: 40px;
+    
+    background-image: url('./../images/logo.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+
+}
+.carouselImage{
+    height: 100vh;
+    width: 100%;
+}
+
+
+.footerBox{
+    height: 30vh;
+    width: 100%;
+    background-color: #012d52;
+    color: white;
+    display: flex;
+    flex-direction: row;
+
+    .left{
+    
+    width: 35%;
+    
+    
+       
+       .logoFooter{
+           width: 100px;
+           height: 100px;
+           margin: 30px 40px 30px 50px;
+           background-image: url('./../../assets/images/logoFooter.png');
+       background-position: center;
+       background-size: cover;
+       background-repeat: no-repeat;
+    }
+    }
+}
+

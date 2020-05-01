@@ -1,0 +1,33 @@
+.carouselImage{
+    width: 100%;
+    height: 100vh;   
+ }
+
+ .homePageAbout{
+     display: flex;
+     flex-direction: row;
+
+     .Left{
+        width: 50%;
+       
+        height: 50vh;
+        background-image: url('./../../assets/images/carousel2.jpg');
+       background-position: center;
+       background-size: cover;
+       background-repeat: no-repeat;
+       margin: 10px 20px 10px 20px;
+       
+     }
+
+     .Right{
+        margin: 45px 40px 40px 20px;
+        width: 50%;
+        text-align: left;
+        height: 50vh;
+        font-size: 20px;
+     }
+ }
+
+ 
+
+ 
